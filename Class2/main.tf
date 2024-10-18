@@ -27,9 +27,9 @@ resource "aws_key_pair" "deployer" {
 
 # }
 
-# resource "aws_s3_bucket" "example2" {
-#   bucket_prefix = "kaizen-"
-#   force_destroy = true
+# 
+#   forresource "aws_s3_bucket" "example2" {
+#   bucket_prefix = "kaizen-"ce_destroy = true
 
 # }
 
